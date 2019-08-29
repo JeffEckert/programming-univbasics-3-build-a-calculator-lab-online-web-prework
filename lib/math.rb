@@ -25,7 +25,7 @@ end
 def modulo(num1, num2)
   modulo = num1 / num2
   puts modulo
-  return modulo
+  return modulo.class
 end
 
 def square_root(num)
