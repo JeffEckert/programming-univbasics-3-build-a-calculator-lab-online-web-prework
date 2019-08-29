@@ -28,8 +28,8 @@ def modulo(num1, num2)
   return modulo
 end
 
-def square_root(num)
-  square_root = Math.sqrt
+def Math.sqrt(num)
+  Math.sqrt = square_root
   puts square_root
   return square_root
 end
